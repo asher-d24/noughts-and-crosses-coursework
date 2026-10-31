@@ -1,0 +1,14 @@
+/Users/Asher/Python Coding/MyFirstVbApp/bin/Debug/net10.0/MyFirstVbApp
+/Users/Asher/Python Coding/MyFirstVbApp/bin/Debug/net10.0/MyFirstVbApp.deps.json
+/Users/Asher/Python Coding/MyFirstVbApp/bin/Debug/net10.0/MyFirstVbApp.runtimeconfig.json
+/Users/Asher/Python Coding/MyFirstVbApp/bin/Debug/net10.0/MyFirstVbApp.dll
+/Users/Asher/Python Coding/MyFirstVbApp/bin/Debug/net10.0/MyFirstVbApp.pdb
+/Users/Asher/Python Coding/MyFirstVbApp/obj/Debug/net10.0/MyFirstVbApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Asher/Python Coding/MyFirstVbApp/obj/Debug/net10.0/MyFirstVbApp.AssemblyInfoInputs.cache
+/Users/Asher/Python Coding/MyFirstVbApp/obj/Debug/net10.0/MyFirstVbApp.AssemblyInfo.vb
+/Users/Asher/Python Coding/MyFirstVbApp/obj/Debug/net10.0/MyFirstVbApp.vbproj.CoreCompileInputs.cache
+/Users/Asher/Python Coding/MyFirstVbApp/obj/Debug/net10.0/MyFirstVbApp.dll
+/Users/Asher/Python Coding/MyFirstVbApp/obj/Debug/net10.0/refint/MyFirstVbApp.dll
+/Users/Asher/Python Coding/MyFirstVbApp/obj/Debug/net10.0/MyFirstVbApp.pdb
+/Users/Asher/Python Coding/MyFirstVbApp/obj/Debug/net10.0/MyFirstVbApp.genruntimeconfig.cache
+/Users/Asher/Python Coding/MyFirstVbApp/obj/Debug/net10.0/ref/MyFirstVbApp.dll
