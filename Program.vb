@@ -6,11 +6,11 @@ Module Program
 
     Sub Main()
 
-        Dim p1 As String
-        Dim p2 As String
-        Dim symbol1 As String
-        Dim symbol2 As String
-        Dim choice As String
+        Dim p1 As String = ""
+        Dim p2 As String = ""
+        Dim symbol1 As String  = ""
+        Dim symbol2 As String= ""
+        Dim choice As String= ""
         Dim check As Boolean = False
 
         startgame(p1, p2)
@@ -34,7 +34,7 @@ Module Program
 
             ElseIf choice = "3" Then
                 check = True
-                saveAWin()
+                
 
             Else
                 Console.WriteLine("Type a number from 1, 2 or 3")
@@ -97,6 +97,7 @@ Module Program
             displaygrid(board)
 
             if gameWon = true then
+                saveAWin(board) 
                 exit for
             end if
 
@@ -176,7 +177,7 @@ Module Program
         Do Until valid = True
             Console.WriteLine(name & ", enter column number (1-3)")
             If Integer.TryParse(Console.ReadLine(), col) = False Then
-                Console.WriteLine("Invalid input. Please enter a number.")
+                Console.WriteLine("invalid input Please enter a number.")
             ElseIf col < 1 Or col > 3 Then
                 Console.WriteLine("Column must be between 1 and 3")
             Else
@@ -243,10 +244,26 @@ Module Program
     End Sub
 
 
-    Sub saveAWin()
-
+    Sub saveAWin(byref board(,) as string)
         Console.WriteLine("You are in saveawin")
+        dim filePath as string = "winningGame.txt"
 
+        using writer as new StreamWriter(filePath)
+            for row as integer = 0 to 2
+                for col as integer = 0 to 2
+                    writer.Write(board(row, col))
+                
+                    if col<2 then
+                        writer.Write(", ")
+                    end if
+                next
+
+                writer.writeline()
+
+            next
+
+        end using
+        console.writeline("Winning game saved to " & filePath)
     End Sub
 
 

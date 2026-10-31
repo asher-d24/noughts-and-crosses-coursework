@@ -12,3 +12,4 @@
 /Users/Asher/Python Coding/MyFirstVbApp/obj/Debug/net10.0/MyFirstVbApp.pdb
 /Users/Asher/Python Coding/MyFirstVbApp/obj/Debug/net10.0/MyFirstVbApp.genruntimeconfig.cache
 /Users/Asher/Python Coding/MyFirstVbApp/obj/Debug/net10.0/ref/MyFirstVbApp.dll
+/Users/Asher/Python Coding/MyFirstVbApp/obj/Debug/net10.0/MyFirstVbApp.sourcelink.json
